@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>rotateX2</title>
+	<style>
+	div {
+		width: 200px;
+		height: 200px;
+		background: #0f9;
+		position: absolute;
+		left: 50%;
+		top: 30%;
+		margin-left: -100px;
+		margin-top: -100px;
+		-webkit-transition: 1s all ease;
+		-webkit-transform: perspective(800px) rotateX(0deg);
+	}
+	div:active {
+		-webkit-transform: perspective(200px) rotateX(180deg);
+	}
+	</style>
+</head>
+<body>
+	<div>测试文字</div>
+</body>
+</html>
