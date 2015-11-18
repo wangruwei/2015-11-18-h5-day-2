@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>旋转缩放</title>
+	<style>
+	div {
+		-webkit-transition: 1s all ease;
+	}
+	#div1 {
+		width: 200px;
+		height: 200px;
+		margin: 100px auto;
+		background: #0f9;
+	}
+	#div2 {
+		width: 200px;
+		height: 200px;
+		margin: 100px auto;
+		background: #0f9;
+	}
+	#div1:hover {
+		-webkit-transform: rotate(45deg) scale(2,1);
+	}
+	#div2:hover {
+		-webkit-transform: scale(2,1) rotate(45deg);
+	}
+	</style>
+</head>
+<body>
+	<div id="div1"></div>
+	<div id="div2"></div>
+</body>
+</html>
